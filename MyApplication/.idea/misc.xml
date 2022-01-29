@@ -10,7 +10,7 @@
         <entry key="app/src/main/res/layout/answers_mcq.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/call.xml" value="0.37604166666666666" />
         <entry key="app/src/main/res/layout/course_list_adapter.xml" value="0.37604166666666666" />
-        <entry key="app/src/main/res/layout/mcq_test.xml" value="0.37604166666666666" />
+        <entry key="app/src/main/res/layout/mcq_test.xml" value="0.5" />
         <entry key="app/src/main/res/layout/point_store.xml" value="0.37604166666666666" />
       </map>
     </option>
