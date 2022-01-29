@@ -7,9 +7,13 @@ public class User {
     private final String username;
     private final String password;
 
+
+    private int points;
+
     User(String username, String password){
         this.username = username;
         this.password = password;
+        this.points = 0;
     }
 
     String getUserName(){
@@ -19,4 +23,8 @@ public class User {
     String getPassword(){
         return this.password;
     }
+    public int getPoints() {
+        return points;
+    }
+
 }
