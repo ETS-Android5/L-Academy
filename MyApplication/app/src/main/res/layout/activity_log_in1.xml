@@ -108,13 +108,13 @@
         android:layout_height="55dp"
         android:layout_alignBottom="@id/imageView4"
         android:layout_marginBottom="-643dp"
-        app:srcCompat="@drawable/BottomMain" />
+        app:srcCompat="@drawable/bottom_main" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="match_parent"
         android:layout_height="88dp"
-        app:srcCompat="@drawable/HeadAllen" />
+        app:srcCompat="@drawable/head_allen" />
 
 
 </RelativeLayout>
