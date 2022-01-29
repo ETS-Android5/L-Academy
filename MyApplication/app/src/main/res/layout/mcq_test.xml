@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Constraint1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:layerType="software">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="104dp"
+        android:layout_marginBottom="637dp"
+        android:backgroundTint="#FAB45D"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/lacademy" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="412dp"
+        android:layout_height="582dp"
+        android:contentDescription="Paragraph"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:padding="8dp"
+                android:text="Which thing is alive?"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="154dp" />
+
+            <Button
+                android:id="@+id/choice1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="bird"
+                android:textColor="#fff"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/choice2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="door"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/choice3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="rock"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/choice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="Paper"
+                android:textColor="#ffff" />
+
+            <TextView
+                android:id="@+id/question1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginBottom="40dp"
+                android:padding="8dp"
+                android:text="Which of this scientists invented the Relativity Theory?"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/choice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="Einstein"
+                android:textColor="#fff"
+                android:textColorHint="@color/black" />
+
+            <Button
+                android:id="@+id/choice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="Thomson"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/choice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="Galileo"
+                android:textColor="#ffff" />
+
+            <Button
+                android:id="@+id/choice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="#E4BF4E"
+                android:padding="8dp"
+                android:text="Planck"
+                android:textColor="#ffff" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="209dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="101dp"
+        android:background="#FAB45D"
+        android:backgroundTint="#FAB45D"
+        android:text="Quiz 1"
+        android:textAlignment="center"
+        android:textColorLink="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="86dp"
+        android:backgroundTint="#ffff"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
