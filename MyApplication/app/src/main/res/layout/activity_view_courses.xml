@@ -23,13 +23,39 @@
         android:id="@+id/imageButton3"
         android:layout_width="65dp"
         android:layout_height="59dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="112dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="124dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/test"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bottom_main"
         tools:ignore="SpeakableTextPresentCheck" />
 
     <VideoView
@@ -43,13 +69,15 @@
     <ScrollView
         android:layout_width="409dp"
         android:layout_height="324dp"
+        android:contentDescription="@android:string/copy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
+            android:text="TextView" />
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
