@@ -67,16 +67,11 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(TAG, "User exists already");
                         Toast.makeText(MainActivity.this, "User exists already", Toast.LENGTH_SHORT ).show();
                         success = 1;
-
-
                     }
-
-
                 }
                 if (success == 0){
                     Log.d(TAG, "New User is Valid");
                     Toast.makeText(MainActivity.this, "New User is Valid", Toast.LENGTH_SHORT ).show();
-
 
 
                 }
