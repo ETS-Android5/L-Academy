@@ -9,97 +9,47 @@
     android:textAlignment="center"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#E4BF4E"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="419dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="628dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/head_allen" />
 
     <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="43dp"
-        android:layout_height="40dp"
-        android:layout_marginHorizontal="0sp"
-        android:background="#E4BF4E"
-        android:contentDescription="BackButton"
+        android:id="@+id/imageButton3"
+        android:layout_width="65dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="#00FFFFFF"
+        android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        tools:ignore="MissingConstraints" />
+        app:srcCompat="@drawable/back_button"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <VideoView
         android:id="@+id/videoView"
-        android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_marginTop="56dp"
-        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:layout_width="411dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="200dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="53dp"
-        android:layout_height="56dp"
-        android:layout_marginEnd="1dp"
-        android:background="@android:color/holo_orange_light"
-        android:contentDescription="Paragraph"
-        android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/test" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
         android:layout_width="409dp"
-        android:layout_height="473dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="257dp"
-        android:layout_marginEnd="1dp"
-        android:contentDescription="Paragraph"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_height="324dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Text"
-            android:textSize="16sp"
-            android:id="@+id/paragraphText">
-        </TextView>
+            android:orientation="vertical" />
     </ScrollView>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="189dp"
-        android:layout_height="58dp"
-        app:layout_constraintBottom_toTopOf="@+id/videoView"
-        app:layout_constraintEnd_toEndOf="@+id/imageButton2"
-        app:layout_constraintStart_toStartOf="@+id/toolbar"
-        app:layout_constraintTop_toTopOf="@+id/toolbar"
-        app:srcCompat="@drawable/lacademy" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="75dp"
-        android:layout_height="46dp"
-        android:layout_marginBottom="11dp"
-        android:autoText="false"
-        android:elegantTextHeight="true"
-        android:text="Online chat"
-        android:textAlignment="center"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="10sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/videoView"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
