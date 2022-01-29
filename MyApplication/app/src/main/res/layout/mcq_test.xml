@@ -156,15 +156,28 @@
 
     <ImageButton
         android:id="@+id/imageButton3"
-        android:layout_width="65dp"
-        android:layout_height="59dp"
+        android:layout_width="62dp"
+        android:layout_height="50dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="86dp"
         android:backgroundTint="#ffff"
         android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/back_button"
         tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton11"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="59dp"
+        android:layout_height="50dp"
+        android:background="#ffff"
+        android:backgroundTint="#ffff"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/confirm_button"
+        tools:layout_editor_absoluteX="336dp"
+        tools:layout_editor_absoluteY="86dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
