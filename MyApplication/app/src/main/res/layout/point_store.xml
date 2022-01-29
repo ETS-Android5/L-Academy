@@ -53,4 +53,23 @@
         app:layout_constraintStart_toEndOf="@+id/imageButton3"
         app:layout_constraintTop_toBottomOf="@+id/imageView7"
         app:srcCompat="@drawable/points_number" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="171dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:srcCompat="@drawable/how_work_button" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="412dp"
+        android:layout_height="197dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11"
+        app:srcCompat="@drawable/how_work_text" />
 </androidx.constraintlayout.widget.ConstraintLayout>
