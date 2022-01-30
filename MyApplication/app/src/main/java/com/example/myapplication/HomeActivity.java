@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -28,6 +29,7 @@ public class HomeActivity extends AppCompatActivity {
     CourseAdapter courseAdapter;
     ArrayList<Course> courseArrayList;
     FloatingActionButton confirmCourseButton;
+    ImageButton pointStoreButton;
 
     int courseSelectedPosition = -1;
 
@@ -41,7 +43,8 @@ public class HomeActivity extends AppCompatActivity {
         coursesView = findViewById(R.id.listView);
         progressBar = findViewById(R.id.progressBar);
         currentCourseText = findViewById(R.id.textView4);
-
+        confirmCourseButton = findViewById(R.id.confirm_course_button);
+        pointStoreButton = findViewById(R.id.imageButton);
 
         courseArrayList = new ArrayList<>();
         courseAdapter = new CourseAdapter(HomeActivity.this, courseArrayList);
@@ -54,7 +57,9 @@ public class HomeActivity extends AppCompatActivity {
                     String courseContent = (String)doc.getData().get("courseContent");
                     String difficulty = (String)doc.getData().get("difficulty");
                     Course course = new Course(courseName, courseContent, difficulty);
-                    courseArrayList.add(course);
+                    if (!courseArrayList.contains(course)) {
+                        courseArrayList.add(course);
+                    }
                 }
                 courseAdapter.notifyDataSetChanged();
             }
@@ -73,10 +78,19 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (courseSelectedPosition != -1) {
-                    Intent viewCourseIntent = new Intent();
+                    Intent viewCourseIntent = new Intent(HomeActivity.this, ViewCoursesActivity.class);
                     String courseContent = courseArrayList.get(courseSelectedPosition).getCourseContent();
                     viewCourseIntent.putExtra("courseContent", courseContent);
+                    startActivity(viewCourseIntent);
                 }
+            }
+        });
+
+        pointStoreButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, PointStoreActivity.class);
+                startActivity(intent);
             }
         });
     }
