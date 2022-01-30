@@ -92,8 +92,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="450dp"
-        android:layout_marginBottom="219dp"
-        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="165dp"
         android:text="Sign up"
         android:textColor="@color/white"
         app:backgroundTint="#FFA725" />
