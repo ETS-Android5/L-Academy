@@ -34,7 +34,7 @@ Integrate online text and voice chat, where student may ask specific questions a
 
 ## Tech used (as many as required)
 1. Android Studio for development of the application
-2. FireStore for development of the database for the application
+2. FireStoreFireBase for development of the database for the application
 
 ## Link
 - 3 minute Youtube Video Link for Project Demo
