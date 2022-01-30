@@ -7,8 +7,8 @@
 - Altair Issametov (Leader)
 - Yerbol Smailov
 - Alisher Myrgyyasov
-- Kairat Khismetzhan
 - Gaukhar Turgambekova
+- Kairat Khismetzhan
 
 ## Description of the Project (300 words)
 
