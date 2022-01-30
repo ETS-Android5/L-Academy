@@ -1,6 +1,6 @@
 # CityHack22 Project Submission
 ## Project: < Your CityHack22 Project Name >
-<img src="L-Academy/LogoProdut.png>
+<img src="LogoProdut.png>
 
 ## Team: Team Lemmings
 ## Members
