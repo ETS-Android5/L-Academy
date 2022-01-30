@@ -22,8 +22,15 @@ Integrate online text and voice chat, where student may ask specific questions a
 
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description (150 words))
 1. Revolutionary system of interaction between three instances: courses, students, and tutors. Each student can become a tutor and earn points. This would solve the market need in both tutors and good-quality education.
+
+<img src="CourseView.png" width="200" alt="project_logo"/>
+
 2. The project is made on Android Studio using FirestoreFirebase and Java programming language. This allowed us using object-oriented programming, classes, and inheritance. Also, in FirestoreFirebase we contain all the user information fully protected and confidential. These methods made our application’s work effective and fast.
 3. In our system, each student can become a tutor after course completion. To enhance the teaching process, we provide points for their work and online certificates indicating number of tutoring hours that could be very useful during application to university/work
+
+<img src="PointsRecords.png" width="200" alt="project_logo"/>
+
+
 
 ## Tech used (as many as required)
 1. Android Studio for development of the application
