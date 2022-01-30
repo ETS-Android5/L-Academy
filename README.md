@@ -21,15 +21,13 @@ Points can be spent on application customisation, profile picture change, and pu
 Integrate online text and voice chat, where student may ask specific questions and get answers from tutors during lecture or after quiz.
 
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description (150 words))
-1. Integration of voice chat with online tutors
-2. Integration of in-application points, which can be used to receive the discounts for future courses
-3. Design
+1. Revolutionary system of interaction between three instances: courses, students, and tutors. Each student can become a tutor and earn points. This would solve the market need in both tutors and good-quality education.
+2. The project is made on Android Studio using FirestoreFirebase and Java programming language. This allowed us using object-oriented programming, classes, and inheritance. Also, in FirestoreFirebase we contain all the user information fully protected and confidential. These methods made our application’s work effective and fast.
+3. In our system, each student can become a tutor after course completion. To enhance the teaching process, we provide points for their work and online certificates indicating number of tutoring hours that could be very useful during application to university/work
 
 ## Tech used (as many as required)
 1. Android Studio for development of the application
 2. FireStore for development of the database for the application
-3. Tech
-4. Tech
 
 ## Link
 - 3 minute Youtube Video Link for Project Demo
