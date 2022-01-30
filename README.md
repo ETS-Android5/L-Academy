@@ -1,14 +1,14 @@
-#< L'Academy >
-##<img src="L-Academy/LogoProdut.png>
+# CityHack22 Project Submission
+## Project: < Your CityHack22 Project Name >
+<img src="L-Academy/LogoProdut.png>
 
-< Replace the logo above with Your Project Logo >
-## Team: < Team Lemmings >
+## Team: Team Lemmings
 ## Members
-- < Altair Issametov > (Leader)
-- < Yerbol Smailov >
-- < Alisher Myrgyyasov >
-- < Kairat Khismetzhan >
-- < Gaukhar Turgambekova >
+- Altair Issametov (Leader)
+- Yerbol Smailov
+- Alisher Myrgyyasov
+- Kairat Khismetzhan
+- Gaukhar Turgambekova
 
 ## Description of the Project (300 words)
 
@@ -21,15 +21,15 @@ Points can be spent on application customisation, profile picture change, and pu
 Integrate online text and voice chat, where student may ask specific questions and get answers from tutors during lecture or after quiz.
 
 ## 3 Most Impactful Features of the Project (with Screenshot and Short Description (150 words))
-1. < Integration of voice chat with online tutors >
-2. < Integration of in-application points, which can be used to receive the discounts for future courses >
-3. < Design >
+1. Integration of voice chat with online tutors
+2. Integration of in-application points, which can be used to receive the discounts for future courses
+3. Design
 
 ## Tech used (as many as required)
-1. < Android Studio for development of the application >
-2. < FireStore for development of the database for the application >
-3. < Tech >
-4. < Tech >
+1. Android Studio for development of the application
+2. FireStore for development of the database for the application
+3. Tech
+4. Tech
 
 ## Link
-- < 3 minute Youtube Video Link for Project Demo >
+- 3 minute Youtube Video Link for Project Demo
