@@ -1,6 +1,5 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin:'com.android.application'
+apply plugin:'com.google.gms.google-services'
 
 android {
     compileSdk 31
@@ -14,7 +13,9 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-
+    sourceSets {
+        main.java.srcDirs += 'src/main/../../../myapplication'
+    }
     buildTypes {
         release {
             minifyEnabled false

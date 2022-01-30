@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "607470620104",
+    "project_id": "l-academy-22dd2",
+    "storage_bucket": "l-academy-22dd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:607470620104:android:bfb07b7751d46a276844fd",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "607470620104-o8p3ueinkbu0qlm6h2i6hmcn26ph51oj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF2X3_8VXPhHIqEpS52YVGDA5JAygfiQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "607470620104-o8p3ueinkbu0qlm6h2i6hmcn26ph51oj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

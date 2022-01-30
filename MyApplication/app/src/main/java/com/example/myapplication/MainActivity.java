@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.FirebaseApp;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -51,13 +52,13 @@ public class MainActivity extends AppCompatActivity {
         suConPassword = findViewById(R.id.suConPassword);
         Login = findViewById(R.id.Login);
         suErrView = findViewById(R.id.errorView);
-
         db = FirebaseFirestore.getInstance();
         final CollectionReference collectionReference = db.collection("Users");
 
         signUp.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                FirebaseApp.initializeApp(MainActivity.this);
                 final String userName = suUserName.getText().toString();
                 final String password = suPassword.getText().toString();
                 final String conPassword = suConPassword.getText().toString();
