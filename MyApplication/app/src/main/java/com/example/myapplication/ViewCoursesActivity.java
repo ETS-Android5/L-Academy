@@ -59,7 +59,10 @@ public class ViewCoursesActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.Part;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.part;
         Uri uri = Uri.parse(videoPath);
+        videoCourseView.setVideoURI(uri);
+        videoCourseView.start();
+
     }
 }
