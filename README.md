@@ -1,6 +1,6 @@
 # CityHack22 Project Submission
 ## Project: L'Academy
-<img src="LogoProdut.png" width="200" alt="project_logo"/>
+<img src="LogoProduct.png" width="200" alt="project_logo"/>
 
 ## Team: Team Lemmings
 ## Members
