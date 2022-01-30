@@ -1,5 +1,5 @@
-< L'Academy >
-<img src="L-Academy/LogoProdut.png>
+#< L'Academy >
+##<img src="L-Academy/LogoProdut.png>
 
 < Replace the logo above with Your Project Logo >
 ## Team: < Team Lemmings >
